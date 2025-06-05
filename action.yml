@@ -6,7 +6,7 @@ branding:
   color: blue
 inputs:
   github-token:
-    description: 'GitHub token with repo and actions scope for querying runner information'
+    description: 'GitHub token with `admin:org` and `read:org` scopes to query organization-level runners'
     required: true
   primary-runner:
     description: 'Comma-separated list of labels for the primary runner, e.g. self-hosted,linux'
